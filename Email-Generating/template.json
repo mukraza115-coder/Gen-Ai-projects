@@ -1,0 +1,19 @@
+{
+    "name": null,
+    "input_variables": [
+        "email_type",
+        "extra",
+        "purpose",
+        "recipient",
+        "tone"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert email writer.\n\nWrite a complete email.\n\nRecipient:\n{recipient}\n\nEmail Type:\n{email_type}\n\nTone:\n{tone}\n\nPurpose:\n{purpose}\n\nAdditional Instructions:\n{extra}\n\nReturn:\n\nSubject\n\nGreeting\n\nBody\n\nClosing",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
